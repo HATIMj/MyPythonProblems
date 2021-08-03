@@ -12,7 +12,7 @@ def m(n):
 def jojo(): 
    """This function scan all the next numbers of the given number to get a palindrome and stop when the mission is completed"""
    for i in range(l+1,l*10): #Looping from next l+1 to l*10 so that it can get palindrome without any error
-       if i==m(i):
+       if i==m(i):   #We can also write str(n)==str(n)[::-1] instead of m(i)
           return "{} is the next palindrome".format(i)
           break
        else:
