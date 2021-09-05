@@ -1,7 +1,7 @@
                              #List  reverser :- This program reverse a list using inbuilt function , string slicing and using an algorithm
-n=list(map(int,input("Enter list of five numbers:").split(" ")))  #Taking the in input for a list separated by " "
-m=n[::-1]   #reversing by string slicing
-j=n[:]     #Now j is the copy of n(input)
+n=list(map(int,input("Enter list of five numbers:").split(" ")))  #Taking the in input for a list separated by " " space
+m=n[::-1]   #reversing by string slicing 
+j=n[:]     #Now j is the copy of n(input) 
 j.reverse()    #reversing j with inbuilt function
 print(f"My first reverse of {n} is {j}")     #Printing the statements
 print(f"My second reverse of {n} is {m}")

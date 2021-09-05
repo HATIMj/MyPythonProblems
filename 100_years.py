@@ -1,5 +1,6 @@
 
 def dt():
+   '''This function Returns the present year '''
    import datetime                           
    return datetime.datetime.today().year      #using datetime module to get current year
 m=input("Do you want to provide us :--Year(y) or Age(a):---[] ")  #Getting input from user if they want to provide their age or birth year
