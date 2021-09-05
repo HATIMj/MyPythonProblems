@@ -1,4 +1,4 @@
-                                                 #DIVISOR OR NOT
+                                                 #DIVISOR OR NOT  
 
 try:            #trying the below inputs
 
@@ -6,8 +6,8 @@ try:            #trying the below inputs
    mn=int(input("Enter the minimum no. of students:--"))   #Taking the input of minimum number of students
    mx=int(input("Enter the maximum no. of students:--"))    #Taking the input of maximumn number of students
 except ValueError:     # if there is no integer in an input it will print the below message and exit the program
-    print("Please Enter only integers")
-    exit()
+    print("Please Enter only integers") 
+    exit()   #Exiting the python file
 if mn==mx:
     if n%mn==0:print(f"This is not a range. {mn} is a divisor of {n}")               #If mn>=mx then it is not a range 
     else:print(f"This is not a range. {mn} is not  a divisor of {n}")  
